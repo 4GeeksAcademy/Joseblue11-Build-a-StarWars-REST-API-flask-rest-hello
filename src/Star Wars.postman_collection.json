@@ -1,0 +1,429 @@
+{
+	"info": {
+		"_postman_id": "278bfd45-b0fe-4062-9fe3-462060368fda",
+		"name": "Star Wars",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31524811"
+	},
+	"item": [
+		{
+			"name": "Characters",
+			"item": [
+				{
+					"name": "Get All Characters",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/character",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"character"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Character by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/character/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"character",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Favorite Character",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{api_url}}/favorite/character/1/user/2",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"character",
+								"1",
+								"user",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Favorite Character",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/character/1/user/3",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"character",
+								"1",
+								"user",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Planets",
+			"item": [
+				{
+					"name": "Get All Planets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/planet",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"planet"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Planet by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/planet/2",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"planet",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Favorite Planet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/planet/1/user/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"planet",
+								"1",
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Favorite Planet",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/planet/1/user/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"planet",
+								"1",
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Starships",
+			"item": [
+				{
+					"name": "Get All Starships",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/starship",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"starship"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Starship by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/starship/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"starship",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Favorite Starship",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/starship/1/user/3",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"starship",
+								"1",
+								"user",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Favorite Starship",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/starship/1/user/3",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"starship",
+								"1",
+								"user",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Vehicles",
+			"item": [
+				{
+					"name": "Get All Vehicles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/vehicle",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"vehicle"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Vehicle by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/vehicle/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"vehicle",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Favorite Vehicle",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/vehicle/1/user/2",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"vehicle",
+								"1",
+								"user",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Favorite Vehicle",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/vehicle/1/user/3",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"vehicle",
+								"1",
+								"user",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Species",
+			"item": [
+				{
+					"name": "Get All Species",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/specie",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"specie"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Vehicle by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/specie/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"specie",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Favorite Specie",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/specie/1/user/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"specie",
+								"1",
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Favorite Specie",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api_url}}/favorite/specie/1/user/1",
+							"host": [
+								"{{api_url}}"
+							],
+							"path": [
+								"favorite",
+								"specie",
+								"1",
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
