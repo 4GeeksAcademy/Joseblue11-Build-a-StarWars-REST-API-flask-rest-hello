@@ -225,7 +225,7 @@ class Specie(db.Model):
         }
 
 class FavoriteCharacter(db.Model):
-    __tablename__= "favoriteCharacter"
+    __tablename__= "FavoriteCharacter"
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"), nullable=False)
     character_id = db.Column(db.Integer, db.ForeignKey("character.id"), nullable=False)
